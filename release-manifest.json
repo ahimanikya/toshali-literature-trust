@@ -1,6 +1,6 @@
 {
   "origin": "https://toshaliliterature.org",
-  "candidate_manifest_sha256": "04df2e9cce93250d7ffbc829af5e1ef1238e3d5626db253ccabee4d8a1d30bdf",
+  "candidate_manifest_sha256": "90348c90b92a921c93cdfc61e281dab594de222048e8a1dc2286da31bfd439a8",
   "files": {
     ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "archive/2023/galleries/gallery-440dccb96ab42c12/index.html": "e396e26b7b5a9e0d60cdd63e14928cd5326471c5353b59b870e3d27a3b7b1019",
@@ -441,7 +441,7 @@
     "assets/toshali-trust-symbol.svg": "acdedf5b8761c948c945625de51b42310830482e63230f7584d61d86435ae7a4",
     "assets/toshali-trust-wordmark.svg": "7770e1d8e9801162515dc53e7f4cbdfe1c2e3f272621a0cb236f7eb60c5a2659",
     "assets/toshali-trust.svg": "c7a52ec024570d1fe4f44e4d9ba57b5b57d5207ec9055dff923b1d914f79a55a",
-    "index.html": "d496ec3d2dafb1a076e8ddab3d16b4fb297e0ee4f03054f49b30a41b10ef2769",
+    "index.html": "c40a86cfea0cb947884fc205ca2a6f474f7f2ba04e156dfd3d01be29712312d5",
     "people/groups/profile-group-person-2024-member-10/index.html": "e8bbd913d9eaebf627bae1bed7df9856a890b9ec3ac5e50eee4f68bd05fa6883",
     "people/groups/profile-group-person-2024-member-11/index.html": "7da20944cc5dc4ff27a3b000e3aad51bb437920a17d3bf3ae7a21c103161bdd9",
     "people/groups/profile-group-person-2024-member-112/index.html": "6c7cb8ffc187ffaf24ab8b8fe81af040d86e598013a950f4803ec86175b8ab26",
@@ -849,12 +849,12 @@
     "people/person-2026-member-97/index.html": "3b85e0aa405028ce99f585db0656385ee62419f37ba1049a2f6b21a8fc51f24a",
     "people/person-2026-member-98/index.html": "3e41e43a37311bd9bf53f7644e5e6ec6792a127a7022ad3e4921c3dca5c05d11",
     "people/person-2026-member-99/index.html": "c6d7d849812548c26b0aef15525d3f6970b08cab0f56f783b946c65ea6889c45",
-    "programme/index.html": "37a4654b56aba304d826c94fd789262d3e7cb51472b6b7a796b77bc96ca5c36d",
-    "register/index.html": "e7a37aac9f6ab95e6e0c91e7a84ef7cae4b65cc12e65c366cc6fcabb7ba663e3",
+    "programme/index.html": "2a02d93b7568d545a1bf5d76dcfa092a893ada47b27144cca9024e957a205996",
+    "register/index.html": "4fa714eb3bc3c54b4b4b5f7e6cf0380349061fbac32907b8f2f59d080f81fadd",
     "robots.txt": "7813de061174e7c43e1eb4b49311835e048934e5a615ba0adab3eaf7964d5ca0",
     "search.js": "119196fc47bc4ff9f7a85f4417c3ead93436b950951fec7cd9d8cee1869b88c2",
     "sitemap.xml": "f65a5abbea504ff4a58a54eac402d11b42f16445ed064fbeb0eb713e2e09822c",
-    "style.css": "fafa60984f7e675c528062c8c05ca0d174635853d8f609057ba247a65024d5ac",
-    "visit/index.html": "830afa23716cf34b471d2737ed91c328e9ee678cc5354ca8412f2996b4827fcc"
+    "style.css": "219cc407b2724d513103e7d440c168229e5de6400e1999466e0ee1c85dbe7898",
+    "visit/index.html": "45aeba8eb04f7197428a5940140d4d4a0bc6881eb41df67a829394f5c73273aa"
   }
 }
