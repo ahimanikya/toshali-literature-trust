@@ -1,0 +1,51 @@
+name: Publish Toshali Literature Trust
+
+on:
+  workflow_dispatch:
+    inputs:
+      approved_commit:
+        description: 'Full commit SHA explicitly approved by Ahimanikya for this release'
+        required: true
+        type: string
+
+permissions:
+  contents: read
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    if: github.ref == 'refs/heads/main' && github.actor == github.repository_owner
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - name: Verify approved revision
+        env:
+          APPROVED_COMMIT: ${{ inputs.approved_commit }}
+        run: test "$GITHUB_SHA" = "$APPROVED_COMMIT"
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify exact public artifact
+        run: python3 verify-release.py
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: site
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Publish owner-approved website
+        id: deployment
+        uses: actions/deploy-pages@v4

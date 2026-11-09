@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /register/
+Disallow: /archive/search/
+Sitemap: https://toshaliliterature.org/sitemap.xml
